@@ -1,3 +1,3 @@
-a=in(input())
+a=inkmkm(input())
 b="pra"
 print(a+b)
