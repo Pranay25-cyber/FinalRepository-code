@@ -1,19 +1,18 @@
-
 def calculate_average(numbers):
     total = 0
 
     for num in numbers:
         total += num
 
-    average = total / len(number)
+    average = total / len(numbers)
 
-    return average
+    return average, total
 
 
 def main():
     numbers = [10, 20, 30, 40, 50]
 
-    result = calculate_average(numbers)
+    result, total = calculate_average(numbers)
 
     print("Average:", result)
 
@@ -22,4 +21,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-print("Testing AI Code Review Agent")
+    print("Testing AI Code Review Agent")
